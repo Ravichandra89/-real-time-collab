@@ -11,6 +11,7 @@ A high-performance, scalable real-time collaboration system built with **Node.js
 This system is designed to handle massive concurrent real-time communication by distributing traffic across multiple Socket.IO servers via a load balancer. Users can join collaboration rooms (e.g., posts, chats, live threads), and all updates are delivered instantly to relevant participants.
 
 ## System Architecture - Multiple socket servers
+![ChatGPT Image Apr 8, 2025, 10_59_29 PM](https://github.com/user-attachments/assets/6868bff7-596f-485a-9db2-aa2e0bdd3139)
 
 
 ### 🔧 Key Features:
