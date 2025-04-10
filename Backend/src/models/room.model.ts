@@ -16,7 +16,7 @@ export const addUserToRoom = async (
 };
 
 // Remove user from the room
-export const remoteUserFromRoom = async (redis: RedisClientType, roomId: string, socketId: string) : Promise<void> => {
+export const removeUserFromRoom = async (redis: RedisClientType, roomId: string, socketId: string) : Promise<void> => {
     try {
         await redisClient.hDel(`room:${roomId}`, socketId);
         console.log(`Removed socket ${socketId} from room ${roomId}`);
